@@ -1,0 +1,9 @@
+let GetExpirationDate = (d as date , p as number) => 
+let
+       i=Number.RoundDown (p),
+       dd=Number.RoundDown ((p-i)*30),
+       edate= Date.AddDays(Date.AddMonths(d,i) ,-1),
+       pdate=Date.AddDays(edate,dd)
+ 
+in pdate
+ in GetExpirationDate
